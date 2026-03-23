@@ -22,7 +22,7 @@ jobs:
 
     - name: Install project dependencies and generate requirements.txt
       run: |
-        pipenv install --dev --skip-lock # Install dependencies first to make sure they are in the venv
+        #pipenv install --dev --skip-lock # Install dependencies first to make sure they are in the venv
         pipenv requirements --dev > requirements.txt
      
 
